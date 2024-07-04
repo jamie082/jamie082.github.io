@@ -3,26 +3,36 @@
     <title>W3.CSS</title>
     <meta name="viewport" content="widdth=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+    <head>
+        <style>
+            h1 {
+                text-shadow: 2px 2px;
+            }
+        </style>
+    </head>
+    <body>
 
     <div class="w3-container">
-        <h2>Jamie's Portfolio for Tech Recruiters</h2>
+        <h3>Jamie's Portfolio</h3>
+        <h1>Web Developer!</h1>
     </div>
 <div class="w3-bar w3-black">
-    <button class="w3-bar-item w3-button" onclick="openCity('Jamie')">Named Project #1</button>
-    <button class="w3-bar-item w3-button" onclick="openCity('Lindsey')">Named Project #2</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Jamie')">Python Web Scraper</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Lindsey')">WGU Capstone Project</button>
     <button class="w3-bar-item w3-button" onclick="openCity('Susan')">Named Project #</button>
     <button class="w3-bar-item w3-button" onclick="openCity('leetcode')">LeetCode problems</button>
 </div>
 
 <div id ="Jamie" class="w3-container class">
     <h2>Project #1</h2>
-    <p>Discrete Math project</p>
+    <a href="https://github.com/jamie082/resume_scraper/blob/main/scraper_resume.py">Python Web Scraper</a>
+    <p>Web Scraper written with beautiful soup library to scrap Craigslist Software job listenings</p>
 </div>
 
 <div id="Lindsey" class="w3-container class" style="display:none">
     <h2>WGU Capstone Project</h2>
-    <p>Capstone Project</p>
+    <p>To be completed Q4/2024</p>
+    <p>(To be announced)</p>
 </div>
 
 <div id="Susan" class="w3-container class" style="display:none">
