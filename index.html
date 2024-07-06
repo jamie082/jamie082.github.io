@@ -8,6 +8,14 @@
             h1 {
                 text-shadow: 2px 2px;
             }
+
+            .bordered {
+                position: absolute;
+                width: 100%;
+                height: 100px;
+                background: #063;
+                bottom: 0px;
+            }
         </style>
     </head>
     <body>
@@ -19,7 +27,7 @@
 <div class="w3-bar w3-black">
     <button class="w3-bar-item w3-button" onclick="openCity('Jamie')">Python Web Scraper</button>
     <button class="w3-bar-item w3-button" onclick="openCity('Lindsey')">WGU Capstone Project</button>
-    <button class="w3-bar-item w3-button" onclick="openCity('Susan')">Named Project #</button>
+    <button class="w3-bar-item w3-button" onclick="openCity('Susan')">Pandas Project</button>
     <button class="w3-bar-item w3-button" onclick="openCity('leetcode')">LeetCode problems</button>
 </div>
 
@@ -36,8 +44,8 @@
 </div>
 
 <div id="Susan" class="w3-container class" style="display:none">
-    <h2>Project #3</h2>
-    <p>NumPy project</p>
+    <h2>Pandas project</h2>
+    <p>Pandas project example goes here</p>
 </div>
 
 <div id="leetcode" class="w3-container class" style="display:none">
@@ -47,6 +55,7 @@
     </ol>
 </div>
 
+<div class="bordered">Box with a bordered</div>
 <script>
     function openCity(cityName) {
         var i;
